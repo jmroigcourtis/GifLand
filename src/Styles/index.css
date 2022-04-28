@@ -1,0 +1,55 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+p {
+  color: black;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.btn {
+  display: flex;
+  margin: auto;
+  height: 2.5rem;
+  
+}
+
+
+input {
+  display: flex;
+  margin: auto;
+  width: 15%;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+
+.card {
+  display: flex;
+  flex-wrap:wrap;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card p {
+  text-align: center;
+  max-height: 170px;
+  margin: auto;
+}
+
+.cardGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
